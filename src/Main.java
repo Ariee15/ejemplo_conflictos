@@ -16,5 +16,8 @@ public class Main {
 
         System.out.println("Ingrese el valor de C:");
         c = Integer.parseInt(br.readLine());
+
+        int resultado;
+        resultado = a + b + c;
     }
 }
