@@ -7,8 +7,8 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int a, b, c;
-
-        System.out.println("Ingrese el valor de A:");
+        System.out.println("Ejemplo de Sumar tres números");
+        System.out.println("Ingrese el valor númerico de A:");
         a =Integer.parseInt(br.readLine());
 
         System.out.println("Ingrese el valor de B:");
@@ -19,5 +19,6 @@ public class Main {
 
         int resultado;
         resultado = a + b + c;
+        System.out.println("            ");
     }
 }
