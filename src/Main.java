@@ -19,5 +19,6 @@ public class Main {
 
         int resultado;
         resultado = a + b + c;
+        System.out.println("El resultado es: " + resultado);
     }
 }
