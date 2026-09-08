@@ -26,4 +26,8 @@ public class Suma {
     public void setNumC(int numC) {
         this.numC = numC;
     }
+
+    public int suma(){
+        return numA+numB+numC;
+    }
 }
